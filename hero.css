@@ -13,12 +13,19 @@ header{
 h1{
 	font-size: 90px;
 	color: white;
+	text-shadow: 0 4px 20px black;
+}
+
+h2{
+	font-size: 30px;
+	color: red;
 }
 
 header img{
 	border-radius: 200px;
 	width: 300px;
 	border: 24px solid #CC0000;
+	box-shadow: 0 10px 20px black;
 }
 
 .content{
@@ -43,6 +50,10 @@ ul{
 a{
 	color: red;
 	text-decoration: none;
+}
+
+a:hover{
+	background-color: yellow;
 }
 
 footer{
